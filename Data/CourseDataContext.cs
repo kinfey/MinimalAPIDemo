@@ -19,7 +19,7 @@ public class CourseDataContext : DbContext
         var serverVersion = new MySqlServerVersion(new Version(8, 0, 28));
 
 		optionsBuilder
-			.UseMySql(@"你的数据库字符串", serverVersion);
+			.UseMySql(@"Connection String", serverVersion);
 
 
 	}
